@@ -5,5 +5,5 @@ TokageCam 肥大化に伴いmodule分離
 Linux/bash
 ```
 $ export PYTHONPATH=$PYTHONPATH:/path_to/TokageUtil
-$ ~/TokageCam/scripts/kickTokageCam 5m
+$ ~/TokageCam/scripts/kickTokageCam.sh 5m
 ```
