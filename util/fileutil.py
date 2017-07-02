@@ -10,8 +10,8 @@ from glob import glob
 import tensorflow as tf
 from PIL import Image, ImageDraw, ImageFont
 
-from util import printutil as pu
-from util import vectorutil as vu
+from . import printutil as pu
+from . import vectorutil as vu
 
 
 MACROSQURE = 16
@@ -127,7 +127,7 @@ class FilePair(object):
             x, y = self.xy
             left, top = vu.minXY(x, y)
             w, h = self.fixedbox
-            from util import imageutil as iu
+            from . import imageutil as iu
             # Memo: isBinの扱いを自動にするか検討すること
             img = iu.openImageForTFfeature(_img=self.croppedImageAsPIL, isBin=False)
             record = tf.train.Example(features=tf.train.Features(

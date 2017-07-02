@@ -13,7 +13,7 @@ try:
 except:
     traceback.print_exc()
 
-from util import printutil as pu
+from . import printutil as pu
 from util.vectorutil import MACROSQURE
 from util.vectorutil import AREA_DIV, ScreenRatio
 from util.vectorutil import CAM02_SHOOT_ORIGINS

@@ -16,7 +16,7 @@ def printTimeStamp(obj=None, msg='', who=''):
     if obj is None:
         print(str)
     else:
-        from util import printutil as pu
+        from . import printutil as pu
         pu._print(obj, message=str)
     pass
 

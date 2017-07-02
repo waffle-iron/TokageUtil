@@ -5,7 +5,7 @@ from __future__ import print_function
 import sys, os, traceback, logging
 
 try:
-    from util import timeutil as tu
+    from . import timeutil as tu
 except:
     print('timeutil import twice? %s'%traceback.format_exc())
 

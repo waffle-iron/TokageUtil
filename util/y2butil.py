@@ -5,7 +5,7 @@ import http.client
 import httplib2
 import os, random, sys, time
 from threading import Lock
-from util import fileutil
+from . import fileutil
 
 from apiclient.discovery import build
 from apiclient.errors import HttpError

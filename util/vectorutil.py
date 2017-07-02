@@ -6,7 +6,7 @@ import os, traceback, glob, threading
 import datetime as dt
 import numpy as np
 
-from util import printutil as pu
+from . import printutil as pu
 
 DEFAULTVECTOR_DIR = os.path.expanduser('~/workspace/img-buff/motions/vector')
 MACROSQURE = 16
