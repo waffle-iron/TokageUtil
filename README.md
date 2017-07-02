@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/setminami/TokageUtil.png?label=ready&title=Ready)](https://waffle.io/setminami/TokageUtil?utm_source=badge)
 # TokageUtil
 TokageCam 肥大化に伴いmodule分離
 
